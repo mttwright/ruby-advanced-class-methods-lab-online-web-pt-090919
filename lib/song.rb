@@ -11,7 +11,9 @@ class Song
   end
   
   def self.create
-    @@all.push(self.new)
+    x = self.new
+    @@all.push(x)
+    x
   end
 
 end
