@@ -27,6 +27,9 @@ class Song
     x.save
     x
   end
+  
+  def self.find_by_name(name)
+    @@all
 
 end
 
