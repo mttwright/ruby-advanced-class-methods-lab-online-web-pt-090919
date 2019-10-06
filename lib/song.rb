@@ -49,7 +49,7 @@ class Song
   end
   
   def self.new_from_filename(filename)
-    step1 = filename.split("-")
+    step1 = filename.chomp(".mp3").split(" - ")
     binding.pry
   end
 
