@@ -27,6 +27,6 @@ class Song
 end
 
 Song.new_by_name("bologna")
-binding.pry
+Song.all
 
 
