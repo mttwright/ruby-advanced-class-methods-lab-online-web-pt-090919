@@ -26,7 +26,5 @@ class Song
 
 end
 
-Song.new_by_name("bologna")
-puts "#{Song.all}"
 
 
