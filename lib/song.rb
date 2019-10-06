@@ -20,6 +20,7 @@ class Song
     x = self.create
     x.name = name
     x
+    binding.pry
   end
     
     
