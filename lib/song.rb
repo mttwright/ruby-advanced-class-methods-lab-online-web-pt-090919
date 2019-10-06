@@ -52,7 +52,11 @@ class Song
     step1 = filename.chomp(".mp3").split(" - ")
     artist = step1[0]
     song = step1[1]
-    binding.pry
+    
+    x = self.create_by_name(song)
+    x.artist_name = artist
+    x
+    
   end
 
 end
