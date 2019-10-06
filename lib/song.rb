@@ -20,9 +20,13 @@ class Song
     x = self.create
     x.name = name
     x
-    binding.pry
   end
     
     
 
 end
+
+Song.new_by_name("bologna")
+binding.pry
+
+
